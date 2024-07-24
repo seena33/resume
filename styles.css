@@ -1,0 +1,126 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Global styles */
+body {
+    background-color: #f4f4f4;
+    color: #4e9ac1;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Container class for alignment */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header styles */
+header {
+    background: #39a6b0;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("bg.jpg");
+}
+
+header .profile-pic img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+header .header-info {
+    max-width: 70%;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+header .contact-info p {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+header .contact-info p i {
+    margin-right: 10px;
+}
+
+header .contact-info a {
+    color: yellow;
+    text-decoration: none;
+}
+
+header .contact-info a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Main content styles */
+main {
+    margin: 20px 0;
+}
+
+main h2 {
+    color: #333;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.section-padding {
+    padding: 20px 0;
+}
+
+.education-item, .experience-item, .project-item {
+    background: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-list span {
+    background: #3498db;
+    color: #fff;
+    padding: 5px 10px
+}
+
+.download-resume a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color:rgb(208, 222, 47);
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.download-resume a:hover {
+    background-color: #2980b9;
+}
+
